@@ -3,37 +3,84 @@
    Última actualización: 15 de enero de 2025
 ----------------------------------------------------------------------------- */
 
-/* ============================
-   Estilos Globales
-=============================== */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 20px;
-  background-color: #ffffff; /* Fondo blanco para mayor legibilidad */
-  color: #333333; /* Color de texto base */
+/* Reset básico de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* ============================
-   Estilos para Encabezados
-=============================== */
+/* -------------------------------
+   Estilos Globales
+-------------------------------- */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Contenedor centrado y con estilo */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------------------
+   Encabezados
+-------------------------------- */
 h1 {
-  color: #333333;
-  font-size: 2em;
-  margin-bottom: 0.5em;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+  text-align: center;
 }
 
 h2 {
-  color: #555555;
-  font-size: 1.5em;
-  margin: 1.2em 0 0.5em 0;
+  font-size: 1.2rem;
+  margin: 1.5rem 0 0.75rem;
+  color: #444;
 }
 
-/* ============================
-   Estilos para Párrafos
-=============================== */
+/* -------------------------------
+   Párrafos y textos
+-------------------------------- */
 p {
-  margin: 10px 0;
-  font-size: 1em;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
 }
 
+.date {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: #777;
+}
+
+/* -------------------------------
+   Secciones
+-------------------------------- */
+section {
+  margin-bottom: 2rem;
+}
+
+/* -------------------------------
+   Responsive (móviles)
+-------------------------------- */
+@media (max-width: 480px) {
+  .container {
+    margin: 20px;
+    padding: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
