@@ -1,0 +1,39 @@
+/* -----------------------------------------------------------------------------
+   English Flashcards 2.0 - Privacy Policy Stylesheet
+   Última actualización: 15 de enero de 2025
+----------------------------------------------------------------------------- */
+
+/* ============================
+   Estilos Globales
+=============================== */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #ffffff; /* Fondo blanco para mayor legibilidad */
+  color: #333333; /* Color de texto base */
+}
+
+/* ============================
+   Estilos para Encabezados
+=============================== */
+h1 {
+  color: #333333;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: #555555;
+  font-size: 1.5em;
+  margin: 1.2em 0 0.5em 0;
+}
+
+/* ============================
+   Estilos para Párrafos
+=============================== */
+p {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
